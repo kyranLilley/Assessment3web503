@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Home Page</title>
+    
+  </head>
+  <body>
+    <nav>
+
+        <div>
+        <div class="bg-img"> <!-- Navigation bar -->
+            <div class="container"> 
+              <div class="topnav">
+                <a href="homePage.html" >Home</a>
+                <a href="gridPage.html">Parts</a>
+                <a href="loginPage.html">Login</a>
+                <a href="paymentPage.html" class='active-page'>Payment</a>
+              </div>
+            </div>
+          </div>
+          <form action="#!" id="main"> 
+            <h2 class="loginh2">Payment details</h2>
+        
+            
+            <div class="input-parent"> <!-- Form input  -->
+              <label for="username" placeholder="Valid card number">CARD NUMBHER</label>
+              <input type="text" id="username" placeholder="Valid Card Number">
+            </div>
+        
+            <div class="input-parent"> <!-- Form input  -->
+                <label for="username">EXPIRATION DATE</label>
+                <input type="text" id="username" placeholder="MM / YYYY">
+              </div>
+
+            <div class="input-parent"> <!-- Form input  -->
+              <label for="password">CV CODE</label>
+              <input type="password" id="password" placeholder="***">
+            </div>
+        
+            <div class="input-parent"> <!-- Form input  -->
+                <label for="password">COUPON CODE</label>
+                <input type="password" id="password">
+              </div>
+
+              <div class="input-parent"> <!-- Form input  -->
+                <label for="password">Total cost : $499</label>
+              </div>
+
+            <button type="submit">Pay</button> <!-- Form input  -->
+	<script src="index.js"></script>
+  </body>
+</html>
